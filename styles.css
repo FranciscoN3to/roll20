@@ -43,3 +43,9 @@ select {
   text-indent: 1px;
   outline: 0;
 }
+.caixa{transform: rotate(-45deg); background: transparent; select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  outline: 0;
+  }}
