@@ -1,5 +1,5 @@
 .losango-parent {
-  height: 210px;
+  height: 110px;
   width: 210px;
   display: grid;
   gap: 10px;
@@ -7,8 +7,8 @@
   grid-template-columns: 1fr 1fr;
   transform: rotate(45deg);
   position: absolute;
-  top: 60px;
-  left: 60px;
+  top: 150px;
+  left: 160px;
 }
 
 .losango {
