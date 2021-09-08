@@ -1,0 +1,45 @@
+.losango-parent {
+  height: 210px;
+  width: 210px;
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+.losango {
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.losango > select {
+  transform: rotate(-45deg);
+  width: auto !important;
+  height: auto !important;
+  font-size: 35px;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  text-align: center;
+}
+
+select::-webkit-outer-spin-button,
+select::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  outline: 0;
+}
